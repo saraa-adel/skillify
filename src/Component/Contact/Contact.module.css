@@ -1,0 +1,13 @@
+.fontLarge{
+    font-size: 101.56px;
+    line-height: 123.19px;
+}
+.informColor{
+    color: #838383;
+}
+.rotate{
+    transform: rotate(3208deg);
+}
+.noshadow{
+   box-shadow: none !important;
+}

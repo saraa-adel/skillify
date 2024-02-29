@@ -1,0 +1,247 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+ul{
+  list-style: none;
+  text-decoration: none;
+}
+.code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',monospace;
+}
+.cursor-pointer{
+  cursor: pointer;
+}
+.w-130{
+  width:130px;
+}
+.w-80{
+  width:80%;
+}
+.w-35{
+  width:35%;
+}
+.w-45{
+  width:45%;
+}
+.w-30p{
+  width:30px;
+}
+.w-65{
+  width:65%;
+}
+.vh-88{
+  min-height: 88vh;
+}
+input[type="radio"] {
+  width: 20px;
+  height: 20px;
+  accent-color: lightslategray;
+}
+.btn-answer{
+  width: 200px;
+}
+.CGray{
+   color: #989898;
+}
+.voice{
+  height: 90%;
+  width: 30%;
+}
+.dot{
+  font-size: 10px;
+}
+.top{
+  min-height:13vh !important;
+}
+.navbar-collapse{
+  flex-grow: unset;
+}
+p{
+  margin: 0;
+}
+.drop-shadow{
+  box-shadow: 0px 3px 15px 5px gray;
+}
+h5{
+  font-family: sans-serif;
+}
+.color-green{
+  color: #1EE285;
+}
+.border-green{
+  border-color: #00C569 !important;
+}
+.top .top-left img{
+  width: 30px;
+  height: 30px;
+}
+.top .top-right img{
+  width: 35px;
+  height: 35px;
+}
+.ques-ans{
+  background-color: #cccbcb;
+}
+.ques-ans .point{
+  font-size: 20px;
+}
+.btn{
+  padding: 12px 0px;
+  transition: 0.3s;
+}
+.h-130{
+  min-height: 133vh;
+}
+.text-main{
+  color: #00C569;
+}
+.main-bgColor{
+  background-color: #1EE285;
+}
+.main-borderC{
+  border: 2px solid;
+  border-color: #00C569;
+}
+.btn.btn1{
+  background-color: #00C569;
+}
+.btn.btn1:hover{
+  background-color: #18975c;
+}
+.btn.btn2{
+  background-color: #0ffa3c;
+}
+.btn.btn2:hover{
+  background-color: #0eca31;
+}
+.btn.btn4{
+  background-color: #79EFFF;
+}
+.btn.btn4:hover{
+  background-color: #67d5e4;
+}
+.body{
+  min-width:5%;
+  min-height:24px;
+  background-color: #E5E7E8;
+}
+.lato {
+  font-family: "Lato", sans-serif;
+}
+.fw-medium{
+  font-weight: 500 !important;
+}
+.fw-bold{
+  font-weight: 700 !important;
+}
+.fw-bolder{
+  font-weight: 900 !important;
+}
+.bgLight{
+  background-color: #F3F3F3;
+}
+.bgGray{
+  background-color: #EAEAEA !important;
+  border-color: #C7C7C7 !important;
+}
+.btn.btn3:hover{
+  background-color: #787878;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  color: #159E79;
+}
+.navLink.active{
+  color: #159E79;
+}
+.nav-link:focus, .nav-link:hover {
+  color: #159E79;
+}
+.feedback{
+  height:150px;
+}
+.successed{
+  background-color: #00C569;
+}
+.failed{
+  background-color: #D5CE1D;
+}
+.feedback .flex-wrap{
+  line-height: 28px;
+}
+.feedback img{
+  width: 30px;
+  height: 30px;
+}
+.unselectable{
+  -webkit-user-select: none !important;
+  -webkit-touch-callout: none !important;
+  -moz-user-select: none !important;
+  -ms-user-select: none !important;
+  user-select: none !important;
+}
+.form-control:focus{
+  border-color: #00C569;
+  box-shadow: 0 0 0 .25rem rgb(0, 197, 105, .3);
+}
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+.formCheck{
+  transition: 0.3s;
+}
+.formCheck:focus {
+  background-color: #00C569 !important;
+  border-radius: 50% !important;
+}
+
+.carousel-control-prev-icon{
+  background-image: url('Assets/images/icons/PNG/Vector\ 3.png');
+  background-size: contain;
+}
+.carousel-control-next-icon{
+  background-image: url('Assets/images/icons/PNG/Vector\ 4.png');
+  background-size: contain;
+}
+.shhh{
+  background-image: url(Assets/images/icons/PNG/Ellipse\ 1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.video-section .item{
+  opacity:0.4;
+  transition:.4s ease all;
+  margin:0 20px;
+  transform:scale(.8);
+}
+
+@media(max-width:1000px){
+  .video-section .item{margin:0; transform:scale(.9)}
+}
+
+.video-section .active .item{
+  opacity:1;
+  transform:scale(1);
+} 
+
+body{
+  margin:80px 0 0 0;
+}
+
+.video-section .owl-item {
+    -webkit-backface-visibility: hidden;
+    backface-visibility:hidden;
+    -webkit-transform: translateZ(0) scale(1.0, 1.0);
+    transform:translateZ(0) scale(1.0, 1.0);
+
+}
+
+.video-section video{
+  max-width:100%;
+  height:auto;
+}

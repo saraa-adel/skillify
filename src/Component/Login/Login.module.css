@@ -1,0 +1,14 @@
+.signup{
+    background-image: url('../../Assets/images/pexels-emily-ranquist-1205651\ 1.png');
+    background-size: 100% 100%;
+    height: auto;
+}
+.bgInput{
+    background-color: #EEEEEE !important;
+}
+.roundedInput{
+    border-radius: 20px;
+}
+.paddingInput{
+    padding: 18px;
+}

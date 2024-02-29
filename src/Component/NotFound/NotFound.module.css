@@ -1,0 +1,10 @@
+.border{
+    width: 310px;
+    height: 310px;
+    border: 20px  solid #000;
+    border-radius: 50%;
+    padding: 35px;
+}
+.height{
+    height: 88vh;
+}
